@@ -10,128 +10,135 @@ The system combines a **PyTorch-based deep learning model**, a **FastAPI backend
 
 ## Zynox Tech
 
-Website: https://zynoxtech.site  
-Email: hello@zynoxtech.site  
-Location: Abbottabad, Pakistan
+**Website:** https://zynoxtech.site
+**Email:** [hello@zynoxtech.site](mailto:hello@zynoxtech.site)
+**Location:** Abbottabad, Pakistan
 
 Zynox Tech is a software development company specializing in:
 
-- Artificial Intelligence Solutions
-- Machine Learning Applications
-- Web Applications
-- Mobile Applications
-- Enterprise Software
-- Custom Digital Products
+* Artificial Intelligence Solutions
+* Machine Learning Applications
+* Web Applications
+* Mobile Applications
+* Enterprise Software
+* Custom Digital Products
 
 We build innovative, scalable, and reliable technology solutions that help businesses and organizations solve real-world challenges.
 
 For AI solutions, software development, and technology partnerships:
 
-Website: https://zynoxtech.site  
-Email: hello@zynoxtech.site
+**Website:** https://zynoxtech.site
+**Email:** [hello@zynoxtech.site](mailto:hello@zynoxtech.site)
 
 ---
 
 # Project Overview
 
-The **Liver Tumor Detection System** is an AI-based medical imaging application designed to assist in liver tumor detection from CT scan images.
+The **Liver Tumor Detection System** is an AI-based medical imaging application designed to assist in detecting potential liver tumors from CT scan images.
 
-The system uses deep learning with **ResNet18** architecture trained on the **LiTS (Liver Tumor Segmentation) dataset**.
+The system uses deep learning with a **ResNet18 architecture** trained using the **LiTS (Liver Tumor Segmentation) dataset**.
 
-It provides:
+The platform combines artificial intelligence, cloud-based backend services, and a modern web interface to provide an accessible medical image analysis workflow.
 
-- CT scan image analysis
-- AI-based tumor detection
-- Prediction results through API
-- Web-based user interface
-- Secure authentication and data management
+The system provides:
 
----
-
-# Project Structure
-
-```
-LiverDetectionModel/
-
-├── backend/
-│   └── FastAPI server
-│       └── Docker deployment on HuggingFace Spaces
-
-├── frontend/
-│   └── Next.js web application
-       ├── Firebase Authentication
-       └── Firestore database
-```
+* CT scan image analysis
+* AI-based liver tumor detection
+* Deep learning-powered predictions
+* API-based model inference
+* Modern web-based user interface
+* Secure user authentication
+* Cloud-based data management
 
 ---
 
-# Quick Start
+# Application Preview
 
-## Backend Setup
+## Main Interface
 
-The backend is deployed on HuggingFace Spaces:
-
-```
-https://hashammubarak1-liver-tumor-detection-api.hf.space
-```
-
-Run locally:
-
-```bash
-cd backend
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Start the API:
-
-```bash
-python main.py
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b5f6b3b0-b6b7-4c63-9d25-30ebecf4b74f" width="850" alt="Liver Tumor Detection Main Interface"/>
+</p>
 
 ---
 
-# Frontend Setup
+## CT Scan Analysis
 
-Navigate to frontend:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5e1c3a6b-b1a0-4857-88e7-bada4b503e51" width="850" alt="Liver CT Scan Analysis"/>
+</p>
 
-```bash
-cd frontend
-```
+---
 
-Create environment file:
+## AI Detection Interface
 
-```bash
-cp .env.local.example .env.local
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f091f1e5-821d-4722-a777-cb3685f21478" width="850" alt="AI Liver Tumor Detection Interface"/>
+</p>
 
-Add your Firebase credentials inside:
+---
 
-```
-.env.local
-```
+## Prediction Results
 
-Install dependencies:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/914ccd33-520b-4e6d-b750-90bdc6310992" width="850" alt="Liver Tumor Prediction Results"/>
+</p>
 
-```bash
-npm install
-```
+---
 
-Run development server:
+# Features
 
-```bash
-npm run dev
-```
+## AI-Powered CT Scan Analysis
 
-Open:
+* Deep learning-based medical image analysis
+* CT scan processing
+* Automated tumor pattern detection
+* Fast AI inference workflow
 
-```
-http://localhost:3000
-```
+---
+
+## Liver Tumor Detection
+
+* ResNet18 deep learning architecture
+* Slice-based CT scan analysis
+* Confidence-based detection workflow
+* Automated image evaluation
+
+---
+
+## Modern Web Interface
+
+* Responsive web application
+* Clean medical AI interface
+* Simple image upload workflow
+* User-friendly prediction results
+
+---
+
+## Secure Authentication
+
+* Firebase Authentication
+* Secure user access
+* User account management
+* Cloud-based authentication services
+
+---
+
+## Cloud Data Management
+
+* Firebase Firestore integration
+* Cloud-based application data
+* Scalable data architecture
+* Secure data management
+
+---
+
+## API-Based AI Inference
+
+* FastAPI backend
+* REST-based model communication
+* Fast prediction processing
+* Scalable backend architecture
 
 ---
 
@@ -139,89 +146,419 @@ http://localhost:3000
 
 ## Artificial Intelligence
 
-- PyTorch
-- ResNet18
-- Deep Learning
-- LiTS Dataset
+* Python
+* PyTorch
+* ResNet18
+* Deep Learning
+* Medical Image Processing
+* LiTS Dataset
 
 ## Backend
 
-- FastAPI
-- Python
-- Docker
-- HuggingFace Spaces Deployment
+* FastAPI
+* Python
+* Docker
+* REST API
+* Hugging Face Spaces
 
 ## Frontend
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS v4
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS v4
 
 ## Authentication & Database
 
-- Firebase Authentication
-- Firebase Firestore
+* Firebase Authentication
+* Firebase Firestore
+
+---
+
+# System Architecture
+
+The application follows a modern AI-powered web architecture:
+
+```text
+User
+  │
+  ▼
+Next.js Frontend
+  │
+  ├── Firebase Authentication
+  │
+  ├── Firebase Firestore
+  │
+  ▼
+FastAPI Backend
+  │
+  ▼
+Image Preprocessing
+  │
+  ▼
+ResNet18 Deep Learning Model
+  │
+  ▼
+Tumor Detection Analysis
+  │
+  ▼
+Prediction Result
+  │
+  ▼
+Web Interface
+```
+
+This architecture separates the frontend, backend, artificial intelligence model, and cloud services into independent application components.
 
 ---
 
 # Detection Methodology
 
-The model uses:
+The liver tumor detection model uses a **ResNet18 deep learning architecture** for medical image analysis.
 
-- ResNet18 deep learning architecture
-- Frozen early layers for efficient training
-- CT scan image analysis
-- Slice-based detection approach
+The detection process includes:
 
-Detection logic:
+1. CT scan image input
+2. Image preprocessing
+3. Slice-based analysis
+4. Deep learning model inference
+5. Affected slice calculation
+6. Tumor probability evaluation
+7. Prediction result generation
 
-- 70% slice threshold
-- 11% affected ratio cutoff
+The detection logic uses:
+
+```text
+70% Slice Threshold
+11% Affected Ratio Cutoff
+```
+
+These thresholds are used within the application's prediction workflow to evaluate analyzed CT scan slices.
 
 ---
 
-# Features
+# Project Structure
 
-- AI-powered CT scan analysis
-- Deep learning-based tumor detection
-- Fast API inference system
-- Modern web interface
-- User authentication
-- Cloud database integration
-- Docker-based deployment
-- Scalable architecture
+```text
+LiverDetectionModel/
+
+├── backend/
+│   ├── main.py
+│   ├── requirements.txt
+│   ├── model/
+│   ├── utils/
+│   └── Dockerfile
+│
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   ├── public/
+│   ├── package.json
+│   └── .env.local
+│
+└── README.md
+```
+
+The project separates the AI backend and frontend web application into dedicated modules.
+
+---
+
+# Quick Start
+
+## Requirements
+
+Before running the project, install:
+
+* Python 3.10+
+* Node.js 18+
+* npm
+* Git
+* Firebase Account
+
+Verify Python:
+
+```bash
+python --version
+```
+
+Verify Node.js:
+
+```bash
+node --version
+```
+
+---
+
+# Backend Setup
+
+Navigate to the backend directory:
+
+```bash
+cd backend
+```
+
+Create a Python virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate the environment.
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### macOS / Linux
+
+```bash
+source venv/bin/activate
+```
+
+Install backend dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the FastAPI server:
+
+```bash
+python main.py
+```
+
+The backend API will run locally according to the configured FastAPI server settings.
+
+---
+
+# Cloud Backend
+
+The backend is deployed using **Hugging Face Spaces** and Docker.
+
+Backend API:
+
+```text
+https://hashammubarak1-liver-tumor-detection-api.hf.space
+```
+
+The cloud API allows the frontend application to communicate with the deployed AI model.
+
+---
+
+# Frontend Setup
+
+Navigate to the frontend directory:
+
+```bash
+cd frontend
+```
+
+Create the environment configuration file:
+
+```bash
+cp .env.local.example .env.local
+```
+
+Add Firebase configuration credentials inside:
+
+```text
+.env.local
+```
+
+Install frontend dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the application:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# Firebase Setup
+
+## Create Firebase Project
+
+1. Open the Firebase Console.
+2. Create a new Firebase project.
+3. Add a web application.
+4. Copy the Firebase configuration credentials.
+
+---
+
+## Enable Authentication
+
+Enable the required authentication providers inside Firebase Authentication.
+
+---
+
+## Configure Firestore
+
+Create a Firebase Firestore database for cloud-based application data management.
+
+Add the Firebase credentials to:
+
+```text
+.env.local
+```
+
+---
+
+# Application Workflow
+
+```text
+User Login
+    │
+    ▼
+Upload CT Scan
+    │
+    ▼
+Frontend Sends Image to API
+    │
+    ▼
+FastAPI Receives Image
+    │
+    ▼
+Image Preprocessing
+    │
+    ▼
+ResNet18 Model Analysis
+    │
+    ▼
+Slice-Based Detection
+    │
+    ▼
+Tumor Probability Evaluation
+    │
+    ▼
+Prediction Result
+    │
+    ▼
+Result Displayed to User
+```
+
+---
+
+# AI Model
+
+The system uses **ResNet18**, a convolutional neural network architecture designed for image classification tasks.
+
+The model implementation includes:
+
+* Transfer learning
+* Frozen early network layers
+* Medical CT scan analysis
+* Slice-based image processing
+* Tumor detection logic
+
+Using frozen early layers allows the model to retain previously learned image features while adapting later layers for liver tumor detection.
+
+---
+
+# Dataset
+
+The AI model is developed using the **LiTS — Liver Tumor Segmentation Dataset**.
+
+The dataset contains medical CT scan data used for liver and liver tumor research.
+
+The dataset supports research in:
+
+* Liver segmentation
+* Tumor segmentation
+* Medical image processing
+* Deep learning
+* Computer vision
 
 ---
 
 # Deployment
 
-## Backend
+## Backend Deployment
 
-Hosted using:
+The backend is deployed using:
 
-- HuggingFace Spaces
-- Docker
+* Hugging Face Spaces
+* Docker
 
-## Frontend
+The Docker-based backend provides a consistent runtime environment for the FastAPI application and AI model.
 
-Can be deployed using:
+---
 
-- Vercel
-- Netlify
-- Firebase Hosting
+## Frontend Deployment
+
+The frontend can be deployed using:
+
+* Vercel
+* Netlify
+* Firebase Hosting
+
+For Next.js applications, Vercel provides a streamlined deployment workflow.
+
+---
+
+# Security and Data Handling
+
+The application uses:
+
+* Firebase Authentication
+* Controlled user access
+* Environment-based credentials
+* API-based backend communication
+* Structured cloud data management
+
+Sensitive configuration information should never be committed directly to the repository.
+
+Store Firebase credentials and application configuration inside environment files.
+
+Example:
+
+```text
+.env.local
+```
+
+---
+
+# Medical Disclaimer
+
+This AI system is developed for **educational, research, and software demonstration purposes only**.
+
+The predictions generated by this application must not be considered a final medical diagnosis.
+
+The system is designed to demonstrate artificial intelligence and medical image analysis technologies.
+
+All medical diagnoses, treatment decisions, and healthcare recommendations must be made by qualified healthcare professionals.
 
 ---
 
 # Future Improvements
 
-Possible improvements:
+Possible future enhancements include:
 
-- Improved segmentation accuracy
-- Additional medical imaging support
-- Larger training datasets
-- Real-time inference optimization
-- Advanced reporting system
+* Improved liver tumor segmentation
+* Larger medical imaging datasets
+* Advanced model architectures
+* Multi-class tumor classification
+* Automated medical report generation
+* Doctor dashboard integration
+* Patient history management
+* Cloud-based AI inference optimization
+* DICOM image support
+* Explainable AI visualization
+* Tumor region highlighting
+* Advanced confidence analysis
 
 ---
 
@@ -229,13 +566,43 @@ Possible improvements:
 
 This project was developed by **Zynox Tech**.
 
-For AI solutions, machine learning systems, and custom software development:
+For AI solutions, machine learning systems, medical AI applications, and custom software development:
 
-Zynox Tech  
-Website: https://zynoxtech.site  
-Email: hello@zynoxtech.site  
+**Zynox Tech**
+**Website:** https://zynoxtech.site
+**Email:** [hello@zynoxtech.site](mailto:hello@zynoxtech.site)
+**Location:** Abbottabad, Pakistan
 
 ---
 
-Developed by **Zynox Tech**  
-Abbottabad, Pakistan
+# About Zynox Tech
+
+Zynox Tech develops modern, scalable, and intelligent software solutions for businesses and organizations.
+
+Our services include:
+
+* Artificial Intelligence Solutions
+* Machine Learning Applications
+* Medical AI Systems
+* Custom Software Development
+* Enterprise Applications
+* Mobile Applications
+* Web Platforms
+* Business Automation Systems
+
+We combine modern software engineering practices with artificial intelligence technologies to develop reliable and user-focused digital products.
+
+For software development services and technology partnerships:
+
+**Website:** https://zynoxtech.site
+**Email:** [hello@zynoxtech.site](mailto:hello@zynoxtech.site)
+
+---
+
+<div align="center">
+
+### Developed by **Zynox Tech**
+
+**Building Modern AI and Technology Solutions for Real-World Challenges**
+
+</div>
